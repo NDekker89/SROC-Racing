@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>SROC Racing</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/style_override.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Cabin:500" rel="stylesheet">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/png" href="../favicon.png"/>
+		<script src="../js/jquery-3.2.1.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container cpage">
+			
+			<div class="container cheader">
+				<div class="container cnavbar" id="navbar">
+					
+					<header class="navbar">
+						<div class="logo">
+							<a href="../index.html">
+								<img src="../img/logo/logo4.jpg" id="logo">
+							</a>
+						</div>
+
+						<div class="menu">
+							<ul>
+								<li> <a href="../index.html" class="menuitem">HOME</a> </li>
+								<li> <a href="championship.html" class="menuitem">CHAMPIONSHIP</a> </li>
+								<li> <a href="ranking.html" class="menuitem">RANKING</a> </li>
+                                                                <li> <a href="constructors.html" class="menuitem">CONSTRUCTORS</a> </li>
+								<li> <a href="rules.html" class="menuitem">RULES</a> </li>
+								<li> <a href="about_us.html" class="menuitem">ABOUT US</a> </li>
+							</ul>
+						</div>
+					</header>
+
+					<header class="navbar small">
+					  	<div class="logo">
+							<a href="../index.html">
+								<img src="../img/logo/logo4.jpg" id="logo">
+							</a>
+						</div>
+
+					  	<input class="menu-btn" type="checkbox" id="menu-btn" />
+					  	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+					  	<ul class="menu small">
+					    	<li> <a href="../index.html" class="menuitem">HOME</a> </li>
+							<li> <a href="championship.html" class="menuitem">CHAMPIONSHIP</a> </li>
+							<li> <a href="ranking.html" class="menuitem">RANKING</a> </li>
+                                                        <li> <a href="constructors.html" class="menuitem">CONSTRUCTORS</a> </li>
+							<li> <a href="rules.html" class="menuitem">RULES</a> </li>
+							<li> <a href="about_us.html" class="menuitem">ABOUT US</a> </li>
+					  	</ul>
+					</header>
+
+				</div>
+
+			</div>
+
+			<div class="container ccontent">
+				<div class="content_wrapper ranking">
+					
+					<div class="header ranking">
+						<h1>Season 4 Ranking</h1>
+					</div>
+
+					<div class="ranking_wrapper">
+
+						<table id="teams">
+							<tr>
+								<th>POS</th>
+								<th>DRIVER</th>
+								<th>TOTAL PTS</th>
+								<th>BEHIND LEAD</th>
+								<th>BEHIND NEXT</th>
+								<th>STARTS</th>
+								<th>WINS</th>
+								<th>POLES</th>
+								<th id="team_th">TEAM</th>
+							</tr>
+							<tr id="fugotaro">
+								<td class="pos"><span>1</span></td>
+								<td class="name">fugotaro</td>
+								<td class="points">25</td>
+								<td class="beh_lead">-</td>
+								<td class="beh_next">-</td>
+								<td class="starts">1</td>
+								<td class="wins">1</td>
+								<td class="poles">-</td>
+								<td class="team force_india"></td>
+							</tr>
+							<tr id="sjors538">
+								<td class="pos"><span>2</span></td>
+								<td class="name">Sjors538</td>
+								<td class="points">18</td>
+								<td class="beh_lead">7</td>
+								<td class="beh_next">7</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team redbull"></td>
+							</tr>
+								<tr id="przewalskipaard">
+								<td class="pos"><span>3</span></td>
+								<td class="name">Przewalskipaard</td>
+								<td class="points">15</td>
+								<td class="beh_lead">10</td>
+								<td class="beh_next">3</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team ferari"></td>
+							</tr>
+							<tr id="niki">
+								<td class="pos"><span>4</span></td>
+								<td class="name">Niki</td>
+								<td class="points">12</td>
+								<td class="beh_lead">13</td>
+								<td class="beh_next">3</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">1</td>
+								<td class="team ferari"></td>
+							</tr>
+							<tr id="maydayforce">
+								<td class="pos"><span>5</span></td>
+								<td class="name">Maydayforce</td>
+								<td class="points">10</td>
+								<td class="beh_lead">15</td>
+								<td class="beh_next">2</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team mclaren"></td>
+							</tr>
+							<tr id="fluffy">
+								<td class="pos"><span>6</span></td>
+								<td class="name">Fluffy</td>
+								<td class="points">8</td>
+								<td class="beh_lead">17</td>
+								<td class="beh_next">2</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team tororosso"></td>
+							</tr>
+							<tr id="vivalatrance">
+								<td class="pos"><span>7</span></td>
+								<td class="name">VivaLaTrance</td>
+								<td class="points">6</td>
+								<td class="beh_lead">19</td>
+								<td class="beh_next">2</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team renault"></td>
+							</tr>
+							<tr id="watch_your_6">
+								<td class="pos"><span>8</span></td>
+								<td class="name">WATCH YOUR 6</td>
+								<td class="points">4</td>
+								<td class="beh_lead">21</td>
+								<td class="beh_next">2</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team redbull"></td>
+							</tr>
+								<tr id="isolaaa">
+								<td class="pos"><span>9</span></td>
+								<td class="name">Isolaaa</td>
+								<td class="points">2</td>
+								<td class="beh_lead">23</td>
+								<td class="beh_next">2</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team sauber"></td>
+							</tr>
+							<tr id="keplur">
+								<td class="pos"><span>10</span></td>
+								<td class="name">Keplur</td>
+								<td class="points">1</td>
+								<td class="beh_lead">24</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team sauber"></td>
+							</tr>
+							<tr id="ziemnioczek">
+								<td class="pos"><span>11</span></td>
+								<td class="name">Ziemnioczek</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team force_india"></td>
+							</tr>
+							<tr id="forced">
+								<td class="pos"><span>12</span></td>
+								<td class="name">Forced</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team mclaren"></td>
+							</tr>
+							<tr id="dolan">
+								<td class="pos"><span>13</span></td>
+								<td class="name">dolan</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team mercedes"></td>
+							</tr>
+							<tr id="samvanzantvliet">
+								<td class="pos"><span>14</span></td>
+								<td class="name">samvanzantvliet</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team mercedes"></td>
+							</tr>
+							<tr id="ananas">
+								<td class="pos"><span>15</span></td>
+								<td class="name">Ananas</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team renault"></td>
+							</tr>
+							<tr id="bassie69">
+								<td class="pos"><span>16</span></td>
+								<td class="name">Bassie-69</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team tororosso"></td>
+							</tr>
+							<tr id="chickenskin">
+								<td class="pos"><span>17</span></td>
+								<td class="name">Chickenskin</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">1</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team williams"></td>
+							</tr>
+							<tr id="brix">
+								<td class="pos"><span>18</span></td>
+								<td class="name">Brix</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">0</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team williams"></td>
+							</tr>
+                                                        <tr id="bizy">
+								<td class="pos"><span>19</span></td>
+								<td class="name">Bizy</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">0</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team haas"></td>
+							</tr>
+                                                        <tr id="will_i_am">
+								<td class="pos"><span>20</span></td>
+								<td class="name">WILL I AM</td>
+								<td class="points">-</td>
+								<td class="beh_lead">25</td>
+								<td class="beh_next">1</td>
+								<td class="starts">0</td>
+								<td class="wins">-</td>
+								<td class="poles">-</td>
+								<td class="team haas"></td>
+							</tr>
+						</table>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container cfooter">
+				<div class="footer clearfix">
+					<div class="footer_left">
+						<ul class="left">
+							<li>
+								<a href="about_us.html"><h4>ABOUT</h4></a>
+								<p>Read about us</p>
+							</li>
+							<li>
+								<a href="championship.html"><h4>CHAMPIONSHIP</h4></a>
+								<p>Check out the upcoming races</p>
+							</li>
+							<li>
+								<a href="ranking.html"><h4>RANKING</h4></a>
+								<p>See the current rankings</p>
+							</li>
+							<li>
+								<a href="ranking.html"><h4>RULES</h4></a>
+								<p>Read about our rules</p>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_right">
+						<ul class="right">
+							<li id="mail">
+								<a href="mailto:cesco@sroc.racing"><h4>E-MAIL</h4></a>
+								<p>Contact us by mail</p>
+							</li>
+							<li id="discord">
+								<a href="https://discord.gg/fJANhGU" target="_blank">
+									<img src="../fonts/discord.svg">
+									<h4>DISCORD</h4>
+								</a>
+								<p>Chat with us</p>
+							</li>
+							<li id="youtube">
+								<a href="https://www.youtube.com/channel/UCfa7tv2SwnCzgW_C909Ohbw" target="_blank"><h4>YOUTUBE</h4></a>
+								<p>Watch our videos</p>
+							</li>
+						</ul>
+					</div>
+					<div class="copyright">
+						<p>&#169; 2017 SROC Racing. All rights reserved.
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<script src="../js/script.min.js"></script>
+
+	</body>
+
+</html>
