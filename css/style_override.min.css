@@ -1,1 +1,29 @@
-body{background:url(../img/Background.png) top center #e2e2e2;background-size:100% auto}.ccontent{height:unset;padding-top:50px}.content_wrapper{padding:150px 30px 100px;margin:0 auto;max-width:1020px}.content_wrapper.calendar,.content_wrapper.ranking{max-width:1200px}@media screen and (max-width:900px){.cheader{height:unset!important}}@media screen and (max-width:600px){.race{height:130px}.race .race_name{width:100%}.race .race_winner{width:100%;padding-left:0;margin-top:10px}}
+body {
+	background: #e2e2e2 url(../img/Background.png) top center repeat;
+    background-size: 100% auto;
+}
+
+.ccontent {
+	height: unset;
+	padding-top: 50px
+}
+
+.content_wrapper {
+    padding: 150px 30px 100px;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+.content_wrapper.calendar, .content_wrapper.ranking {
+	max-width: 1200px;
+}
+
+@media screen and (max-device-width: 900px) {
+	.cheader {height: unset !important;}
+}
+
+@media screen and (max-device-width: 600px) {
+	.race {height: 130px;}
+	.race .race_name {width: 100%;}
+	.race .race_winner {width: 100%; padding-left: 0; margin-top: 10px;}
+}
