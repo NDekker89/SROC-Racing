@@ -21,6 +21,7 @@ body {
 @media screen and (max-device-width: 900px),
 screen and (max-width: 900px) {
 	.cheader {height: unset !important;}
+	.content_wrapper {padding: 100px 30px 100px;}
 }
 
 @media screen and (max-device-width: 600px),

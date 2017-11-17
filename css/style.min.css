@@ -192,7 +192,7 @@ p {
 .navbar.small li a {
   	display: block;
   	color: inherit;
-  	padding: 20px 20px;
+  	padding: 15px 20px;
   	border-right: 1px solid #f4f4f4;
   	background-color: #F7F7F7;
   	font-size: 16px;
@@ -263,7 +263,7 @@ p {
 }
  
 .navbar.small .menu-btn:checked ~ .menu {
-  	max-height: 300px;
+  	max-height: 360px;
 }
  
 .navbar.small .menu-btn:checked ~ .menu-icon .navicon {
@@ -985,7 +985,10 @@ screen and (max-width: 900px) {
 	#navbar {width: 95%;}
 	.navbar {display: none;}
 	.navbar.small {display: block;}
-    .upcoming { margin: 50px 30px 0 30px;}
+	.cnavbar {height: 70px;}
+	.navbar.small .logo img{width: 130px;}
+	.navbar.small .menu-icon {padding: 32px 20px;}
+    .upcoming { margin: 0 30px 0 30px;}
     .header_video_wrapper {display: none;}
     .ccontent2 .content_wrapper {padding: 20px 30px 100px;}
     .content_text {max-width: 500px;}
