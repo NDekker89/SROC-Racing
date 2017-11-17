@@ -176,7 +176,7 @@ p {
 /* ***** RESPONSIVE MENU ****** */
 
 .navbar.small {
-	display: block;
+	display: none;
 }
 
 .navbar.small .logo {
@@ -978,17 +978,13 @@ screen and (max-width: 1100px) {
     .content_image.left {left: 0; max-width: 400px}
 }
 
-@media screen and (min-device-width: 900px),
-screen and (min-width: 900px) {
-	.navbar.small {display: none;}
-}
-
 @media screen and (max-device-width: 900px),
 screen and (max-width: 900px) {
 	.cheader {height: 150px !important;}
 	.ccontent2 {height: unset;}
 	#navbar {width: 95%;}
 	.navbar {display: none;}
+	.navbar.small {display: block;}
     .upcoming { margin: 50px 30px 0 30px;}
     .header_video_wrapper {display: none;}
     .ccontent2 .content_wrapper {padding: 20px 30px 100px;}
