@@ -19,7 +19,7 @@
                                 <p>See the constructor's standings</p>
                             </li>
 							<li>
-								<a href="ranking.php"><h4>RULES</h4></a>
+								<a href="rules.php"><h4>RULES</h4></a>
 								<p>Read about our rules</p>
 							</li>
 						</ul>
