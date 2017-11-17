@@ -3,23 +3,23 @@
 					<div class="footer_left">
 						<ul class="left">
 							<li>
-								<a href="pages/about_us.php"><h4>ABOUT</h4></a>
+								<a href="about_us.php"><h4>ABOUT</h4></a>
 								<p>Read about us</p>
 							</li>
 							<li>
-								<a href="pages/championship.php"><h4>CHAMPIONSHIP</h4></a>
+								<a href="championship.php"><h4>CHAMPIONSHIP</h4></a>
 								<p>Check out the upcoming races</p>
 							</li>
 							<li>
-								<a href="pages/ranking.php"><h4>STANDINGS</h4></a>
+								<a href="ranking.php"><h4>STANDINGS</h4></a>
 								<p>See the driver standings</p>
 							</li>
                             <li>
-                                <a href="pages/constructors.php"><h4>CONSTRUCTORS</h4></a>
+                                <a href="constructors.php"><h4>CONSTRUCTORS</h4></a>
                                 <p>See the constructor's standings</p>
                             </li>
 							<li>
-								<a href="pages/ranking.php"><h4>RULES</h4></a>
+								<a href="ranking.php"><h4>RULES</h4></a>
 								<p>Read about our rules</p>
 							</li>
 						</ul>
