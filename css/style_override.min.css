@@ -18,11 +18,13 @@ body {
 	max-width: 1200px;
 }
 
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 900px),
+screen and (max-width: 900px) {
 	.cheader {height: unset !important;}
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 600px),
+screen and (max-width: 600px) {
 	.race {height: 130px;}
 	.race .race_name {width: 100%;}
 	.race .race_winner {width: 100%; padding-left: 0; margin-top: 10px;}

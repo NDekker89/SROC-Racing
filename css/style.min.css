@@ -176,7 +176,7 @@ p {
 /* ***** RESPONSIVE MENU ****** */
 
 .navbar.small {
-	display: block;
+	display: none;
 }
 
 .navbar.small .logo {
@@ -968,23 +968,23 @@ td.team.williams {
 /* ************************ */
 
 
-@media screen and (max-device-width: 1545px) {
+@media screen and (max-device-width: 1545px),
+screen and (max-width: 1545px) {
     .header_video_wrapper video {top: 0;}
 }
 
-@media screen and (max-device-width: 1100px) {
+@media screen and (max-device-width: 1100px),
+screen and (max-width: 1100px) {
     .content_image.left {left: 0; max-width: 400px}
 }
 
-@media screen and (min-device-width: 900px) {
-	.navbar.small {display: none;}
-}
-
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 900px),
+screen and (max-width: 900px) {
 	.cheader {height: 150px !important;}
 	.ccontent2 {height: unset;}
 	#navbar {width: 95%;}
 	.navbar {display: none;}
+	.navbar.small {display: block;}
     .upcoming { margin: 50px 30px 0 30px;}
     .header_video_wrapper {display: none;}
     .ccontent2 .content_wrapper {padding: 20px 30px 100px;}
@@ -995,7 +995,8 @@ td.team.williams {
 	.race:nth-child(odd) {margin-right: 0;}
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 600px),
+screen and (max-width: 600px) {
 	.ccontent, .ccontent2, .cfooter {height: unset;}
 	.race .race_img {display: none;}
 	.race .race_info {width: 100%;}
@@ -1011,7 +1012,6 @@ td.team.williams {
 	.rules_text dl dt {flex: 0 0 100%;}
 	.rules_text dl dd {flex: 0 0 100%; margin-bottom: 15px;}
 	.about_us_img {width: 60%;}
-	}
 }
 
 
