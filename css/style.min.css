@@ -1144,7 +1144,7 @@ screen and (max-width: 900px) {
 @media screen and (max-device-width: 600px),
 screen and (max-width: 600px) {
 	.ccontent, .ccontent2, .cfooter {height: unset;}
-	.content_wrapper.about_us {padding: 100px 10px 100px;};
+	.content_wrapper.about_us {padding: 100px 10px 100px;}
 	.race .race_img {display: none;}
 	.race .race_info {width: 100%;}
 	.content_text {margin-left: 0; margin: 0 auto;}
