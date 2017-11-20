@@ -913,15 +913,38 @@ td.team.williams {
 	border-bottom: 2px solid #4E0000;
 }
 
-.rules_header h1 {
-	
+.rules_text .accordion {
+
 }
 
-.rules_text section {
-	margin-bottom: 40px;
+.rules_text .accordion li {
+	list-style-type: none;
+	margin-bottom: 20px;
 }
 
-.rules_text p,
+.rules_text .accordion li a {
+	display: block;
+	text-decoration: none;
+	background-color: #2F2F2F;
+	color: #fff;
+	padding: 10px;
+}
+
+.rules_text section.inner {
+	margin-bottom: 30px;
+	padding: 10px 10px 0 10px;
+	overflow: hidden;
+    display: none;
+}
+
+.rules_text section.inner.show {
+	display: block;
+}
+
+.rules_text p {
+	margin-bottom: 0px;
+}
+
 .about_us_text p {
     font-size: inherit;
     margin-bottom: 20px;
@@ -948,7 +971,23 @@ td.team.williams {
 }
 
 .rules_text h3 {
-	margin-bottom: 10px;
+}
+
+.rules_text .toggle h3:before {
+    content: '\f054';
+    font-family: FontAwesome;
+    font-size: 0.8em;
+    text-decoration: inherit;
+    transform: rotate(90deg);
+    margin-right: 20px;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+.rules_text .toggle.toggled h3:before  {
+	transform: rotate(-90deg);
+	margin-right: 20px;
+	transition: 0.4s;
 }
 
 .about_us_text section {

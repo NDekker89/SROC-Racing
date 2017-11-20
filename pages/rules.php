@@ -17,7 +17,7 @@
 			
 		</div>
 
-		<script src="js/script.min.js"></script>
+		<script src="../js/script.min.js"></script>
 
 	</body>
 
