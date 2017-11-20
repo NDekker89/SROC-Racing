@@ -12,8 +12,12 @@
 							<ul>
 								<li> <a href="../index.php" class="menuitem">HOME</a> </li>
 								<li> <a href="championship.php" class="menuitem">CHAMPIONSHIP</a> </li>
-								<li> <a href="ranking.php" class="menuitem">STANDINGS</a> </li>
-                                <li> <a href="constructors.php" class="menuitem">CONSTRUCTORS</a> </li>
+								<li> <a href="" class="menuitem prett">STANDINGS</a> 
+									<ul class="submenu">
+										<li> <a href="ranking.php" class="menuitem">DRIVERS</a></li>
+										<li> <a href="constructors.php" class="menuitem">CONSTRUCTORS</a> </li>
+									</ul>
+								</li>
 								<li> <a href="rules.php" class="menuitem">RULES</a> </li>
 								<li> <a href="about_us.php" class="menuitem">ABOUT US</a> </li>
 							</ul>
