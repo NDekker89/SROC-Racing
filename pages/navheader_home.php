@@ -12,9 +12,9 @@
 							<ul>
 								<li> <a href="index.php" class="menuitem">HOME</a> </li>
 								<li> <a href="pages/championship.php" class="menuitem">CHAMPIONSHIP</a> </li>
-								<li> <a href="" class="menuitem prett">STANDINGS</a> 
+								<li> <a href="javascript:void(0);" class="menuitem prett">STANDINGS</a> 
 									<ul class="submenu">
-										<li> <a href="pages/ranking.php" class="menuitem">DRIVERS</a></li>
+										<li> <a href="pages/ranking.php" class="menuitem">DRIVERS STANDINGS</a></li>
 										<li> <a href="pages/constructors.php" class="menuitem">CONSTRUCTORS</a> </li>
 									</ul>
 								</li>

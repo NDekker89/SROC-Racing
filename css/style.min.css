@@ -913,15 +913,38 @@ td.team.williams {
 	border-bottom: 2px solid #4E0000;
 }
 
-.rules_header h1 {
-	
+.rules_text .accordion {
+
 }
 
-.rules_text section {
-	margin-bottom: 40px;
+.rules_text .accordion li {
+	list-style-type: none;
+	margin-bottom: 20px;
 }
 
-.rules_text p,
+.rules_text .accordion li a {
+	display: block;
+	text-decoration: none;
+	background-color: #2F2F2F;
+	color: #fff;
+	padding: 10px;
+}
+
+.rules_text section.inner {
+	margin-bottom: 30px;
+	padding: 10px 10px 0 10px;
+	overflow: hidden;
+    display: none;
+}
+
+.rules_text section.inner.show {
+	display: block;
+}
+
+.rules_text p {
+	margin-bottom: 0px;
+}
+
 .about_us_text p {
     font-size: inherit;
     margin-bottom: 20px;
@@ -948,7 +971,23 @@ td.team.williams {
 }
 
 .rules_text h3 {
-	margin-bottom: 10px;
+}
+
+.rules_text .toggle h3:before {
+    content: '\f054';
+    font-family: FontAwesome;
+    font-size: 0.8em;
+    text-decoration: inherit;
+    transform: rotate(90deg);
+    margin-right: 20px;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+.rules_text .toggle.toggled h3:before  {
+	transform: rotate(-90deg);
+	margin-right: 20px;
+	transition: 0.4s;
 }
 
 .about_us_text section {
@@ -1095,6 +1134,7 @@ screen and (max-width: 900px) {
     .header_video_wrapper {display: none;}
     .ccontent2 .content_wrapper {padding: 20px 30px 100px;}
     .content_text {max-width: 500px;}
+	.about_us_text p {width: 100%;}
     .content_image.left {display: none;}
     .about_us_img {width: 50%;}
     .race {width: 100%;}
@@ -1104,6 +1144,7 @@ screen and (max-width: 900px) {
 @media screen and (max-device-width: 600px),
 screen and (max-width: 600px) {
 	.ccontent, .ccontent2, .cfooter {height: unset;}
+	.content_wrapper.about_us {padding: 100px 10px 100px;};
 	.race .race_img {display: none;}
 	.race .race_info {width: 100%;}
 	.content_text {margin-left: 0; margin: 0 auto;}

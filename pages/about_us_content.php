@@ -1,5 +1,5 @@
 			<div class="container ccontent">
-				<div class="content_wrapper">
+				<div class="content_wrapper about_us">
 					
 					<div class="about_us_wrapper clearfix">
 
