@@ -33,7 +33,7 @@
 									<h3>CHINESE GRAND PRIX</h3>
 								</div>
 								<div class="race_winner">
-									<p>Fugotaro</p>
+									<p>Forced</p>
 								</div>
 							</div>
 						</div>
