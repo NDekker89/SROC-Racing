@@ -22,7 +22,7 @@
 							</div>
 						</div>
 
-						<div class="race" id="china">
+						<div class="race finished" id="china">
 							<div class="race_img">
 							</div>
 							<div class="race_info">
@@ -33,7 +33,7 @@
 									<h3>CHINESE GRAND PRIX</h3>
 								</div>
 								<div class="race_winner">
-									<p></p>
+									<p>Fugotaro</p>
 								</div>
 							</div>
 						</div>
