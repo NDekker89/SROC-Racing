@@ -48,7 +48,7 @@
 								<td class="beh_lead">18</td>
 								<td class="beh_next">7</td>
 								<td class="starts">2</td>
-								<td class="wins">-</td>
+								<td class="wins">1</td>
 								<td class="poles">-</td>
 								<td class="team mclaren"></td>
 							</tr>
