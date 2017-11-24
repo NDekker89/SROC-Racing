@@ -5,7 +5,7 @@
 					</div>
 					
 					<div class="calendar_wrapper clearfix" id="calendar_2017">
-						
+	
 						<?php 
 
 							if( ! $xml = simplexml_load_file('../data/races.xml') ) 
