@@ -1,0 +1,142 @@
+<?xml version='1.0' standalone='yes'?>
+<races>
+  <race>
+    <id>australia</id>
+    <name>AUSTRALIAN GRAND PRIX</name>
+    <date>2017-11-12</date>
+    <winner>Fugotaro</winner>
+  </race>
+
+  <race>
+    <id>china</id>
+    <name>CHINESE GRAND PRIX</name>
+    <date>2017-11-19</date>
+    <winner>Forced</winner>
+  </race>
+
+  <race>
+    <id>bahrain</id>
+    <name>BAHRAIN GRAND PRIX</name>
+    <date>2017-11-26</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>russia</id>
+    <name>RUSSIAN GRAND PRIX</name>
+    <date>2017-12-03</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>spain</id>
+    <name>SPANISH GRAND PRIX</name>
+    <date>2017-12-10</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>monaco</id>
+    <name>MONACO GRAND PRIX</name>
+    <date>2017-12-17</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>canada</id>
+    <name>CANADIAN GRAND PRIX</name>
+    <date>2018-01-07</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>azerbaijan</id>
+    <name>AZERBAIJAN GRAND PRIX</name>
+    <date>2018-01-14</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>austria</id>
+    <name>AUSTRIAN GRAND PRIX</name>
+    <date>2018-01-21</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>england</id>
+    <name>BRITISH GRAND PRIX</name>
+    <date>2018-01-28</date>
+    <winner></winner>
+  </race>
+
+   <race>
+    <id>hungary</id>
+    <name>HUNGARIAN GRAND PRIX</name>
+    <date>2018-02-04</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>belgium</id>
+    <name>BELGIUM GRAND PRIX</name>
+    <date>2018-02-18</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>italy</id>
+    <name>ITALIAN GRAND PRIX</name>
+    <date>2018-02-25</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>singapore</id>
+    <name>SINGAPORE GRAND PRIX</name>
+    <date>2018-03-04</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>malaysia</id>
+    <name>MALAYSIAN GRAND PRIX</name>
+    <date>2018-03-11</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>japan</id>
+    <name>JAPANESE GRAND PRIX</name>
+    <date>2018-03-18</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>us</id>
+    <name>UNITED STATES GRAND PRIX</name>
+    <date>2018-03-25</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>mexico</id>
+    <name>MEXICAN GRAND PRIX</name>
+    <date>2018-04-08</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>brasil</id>
+    <name>BRASIL GRAND PRIX</name>
+    <date>2018-04-15</date>
+    <winner></winner>
+  </race>
+
+  <race>
+    <id>abu_dhabi</id>
+    <name>ABU DHABI GRAND PRIX</name>
+    <date>2018-04-22</date>
+    <winner></winner>
+  </race>
+</races>
