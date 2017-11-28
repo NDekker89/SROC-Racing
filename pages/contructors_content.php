@@ -14,40 +14,40 @@
 								<th>TOTAL PTS</th>
 								<th id="team_th">TEAM</th>
 							</tr>
-                                                        <tr id="niki">
+                                                        <tr id="fugotaro">
 								<td class="pos"><span>1</span></td>
+								<td class="name">Ferrari</td>
+								<td class="points">79</td>
+								<td class="team ferari"></td>
+							</tr>
+                                                        <tr id="niki">
+								<td class="pos"><span>2</span></td>
 								<td class="name">McLaren</td>
-								<td class="points">50</td>
+								<td class="points">62</td>
 								<td class="team mclaren"></td>
 							</tr>
                                                         <tr id="sjors538">
-								<td class="pos"><span>2</span></td>
-								<td class="name">Force India</td>
-								<td class="points">43</td>
-								<td class="team force_india"></td>
-							</tr>
-							<tr id="fugotaro">
 								<td class="pos"><span>3</span></td>
-								<td class="name">Ferrari</td>
-								<td class="points">39</td>
-								<td class="team ferari"></td>
+								<td class="name">Force India</td>
+								<td class="points">61</td>
+								<td class="team force_india"></td>
 							</tr>
                                                         <tr id="przewalskipaard">
 								<td class="pos"><span>4</span></td>
 								<td class="name">Red Bull</td>
-								<td class="points">29</td>
+								<td class="points">41</td>
 								<td class="team redbull"></td>
 							</tr>
                                                         <tr id="fluffy">
 								<td class="pos"><span>5</span></td>
 								<td class="name">Renault</td>
-								<td class="points">18</td>
+								<td class="points">24</td>
 								<td class="team renault"></td>
 							</tr>
                                                         <tr id="isolaaa">
 								<td class="pos"><span>6</span></td>
 								<td class="name">Williams</td>
-								<td class="points">12</td>
+								<td class="points">22</td>
 								<td class="team williams"></td>
 							</tr>
 							<tr id="maydayforce">
@@ -59,20 +59,20 @@
 							<tr id="vivalatrance">
 								<td class="pos"><span>8</span></td>
 								<td class="name">Sauber</td>
-								<td class="points">3</td>
+								<td class="points">4</td>
 								<td class="team sauber"></td>
 							</tr>
-							<tr id="watch_your_6">
+                                                        <tr id="keplur">
 								<td class="pos"><span>9</span></td>
+								<td class="name">Haas</td>
+								<td class="points">2</td>
+								<td class="team haas"></td>
+							</tr>
+							<tr id="watch_your_6">
+								<td class="pos"><span>10</span></td>
 								<td class="name">Mercedes</td>
 								<td class="points">0</td>
 								<td class="team mercedes"></td>
-							</tr>
-							<tr id="keplur">
-								<td class="pos"><span>10</span></td>
-								<td class="name">Haas</td>
-								<td class="points">0</td>
-								<td class="team haas"></td>
 							</tr>
 						</table>
 

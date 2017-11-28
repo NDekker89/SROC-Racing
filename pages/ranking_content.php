@@ -49,7 +49,7 @@
 								<td class="beh_next">11</td>
 								<td class="starts">3</td>
 								<td class="wins">-</td>
-								<td class="poles">-</td>
+								<td class="poles">1</td>
 								<td class="team ferari"></td>
 							</tr>
                                                         <tr id="maydayforce">
