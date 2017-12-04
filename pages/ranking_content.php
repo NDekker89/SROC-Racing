@@ -20,7 +20,6 @@
 								<th id="team_th">TEAM</th>
 							</tr>
 
-
 							<?php 
 
 								// Enable displaying of errors
@@ -93,7 +92,7 @@
 								}	
 									
 							?>                    
-
+            
 						</table>
 
 					</div>
