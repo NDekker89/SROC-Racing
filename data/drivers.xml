@@ -13,8 +13,8 @@
 	<driver>
 		<id>forced</id>
 		<name>Forced</name>
-		<totalPoints>25</totalPoints>
-		<starts>2</starts>
+		<totalPoints>29</totalPoints>
+		<starts>3</starts>
 		<wins>1</wins>
 		<poles>-</poles>
 		<team>mclaren</team>
@@ -23,8 +23,8 @@
 	<driver>
 		<id>Maydayforce</id>
 		<name>maydayforce</name>
-		<totalPoints>25</totalPoints>
-		<starts>2</starts>
+		<totalPoints>33</totalPoints>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>mclaren</team>
@@ -34,7 +34,7 @@
 		<id>sjors538</id>
 		<name>Sjors538</name>
 		<totalPoints>24</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>redbull</team>
@@ -43,9 +43,9 @@
 	<driver>
 		<id>niki</id>
 		<name>Niki</name>
-		<totalPoints>20</totalPoints>
-		<starts>2</starts>
-		<wins>-</wins>
+		<totalPoints>45</totalPoints>
+		<starts>3</starts>
+		<wins>1</wins>
 		<poles>1</poles>
 		<team>ferari</team>
 	</driver>
@@ -53,18 +53,18 @@
 	<driver>
 		<id>przewalskipaard</id>
 		<name>Przewalskipaard</name>
-		<totalPoints>19</totalPoints>
-		<starts>2</starts>
+		<totalPoints>34</totalPoints>
+		<starts>3</starts>
 		<wins>-</wins>
-		<poles>-</poles>
+		<poles>1</poles>
 		<team>ferari</team>
 	</driver>
 
 	<driver>
 		<id>brix</id>
 		<name>Brix</name>
-		<totalPoints>12</totalPoints>
-		<starts>1</starts>
+		<totalPoints>22</totalPoints>
+		<starts>2</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>williams</team>
@@ -73,8 +73,8 @@
 	<driver>
 		<id>ananas</id>
 		<name>Ananas</name>
-		<totalPoints>10</totalPoints>
-		<starts>2</starts>
+		<totalPoints>16</totalPoints>
+		<starts>3 </starts>
 		<wins>-</wins>
 		<poles>1</poles>
 		<team>renault</team>
@@ -84,7 +84,7 @@
 		<id>fluffy</id>
 		<name>Fluffy</name>
 		<totalPoints>8</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>tororosso</team>
@@ -93,7 +93,7 @@
 	<driver>
 		<id>vivalatrance</id>
 		<name>VivaLaTrance</name>
-		<totalPoints>8</totalPoints>
+		<totalPoints>3</totalPoints>
 		<starts>2</starts>
 		<wins>-</wins>
 		<poles>-</poles>
@@ -103,8 +103,8 @@
 	<driver>
 		<id>watch_your_6</id>
 		<name>WATCH YOUR 6</name>
-		<totalPoints>5</totalPoints>
-		<starts>2</starts>
+		<totalPoints>17</totalPoints>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>redbull</team>
@@ -114,7 +114,7 @@
 		<id>isolaaa</id>
 		<name>Isolaaa</name>
 		<totalPoints>2</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>sauber</team>
@@ -134,7 +134,7 @@
 		<id>ziemnioczek</id>
 		<name>Ziemnioczek</name>
 		<totalPoints>0</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>force_india</team>
@@ -144,7 +144,7 @@
 		<id>dolan</id>
 		<name>dolan</name>
 		<totalPoints>0</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>mercedes</team>
@@ -154,7 +154,7 @@
 		<id>samvanzantvliet</id>
 		<name>samvanzantvliet</name>
 		<totalPoints>0</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>mercedes</team>
@@ -164,7 +164,7 @@
 		<id>bassie69</id>
 		<name>Bassie-69</name>
 		<totalPoints>0</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>tororosso</team>
@@ -174,7 +174,7 @@
 		<id>chickenskin</id>
 		<name>Chickenskin</name>
 		<totalPoints>0</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>williams</team>
@@ -184,7 +184,7 @@
 		<id>bizy</id>
 		<name>Bizy</name>
 		<totalPoints>0</totalPoints>
-		<starts>1</starts>
+		<starts>2</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>haas</team>
@@ -193,8 +193,8 @@
 	<driver>
 		<id>will_i_am</id>
 		<name>WILL I AM</name>
-		<totalPoints>0</totalPoints>
-		<starts>1</starts>
+		<totalPoints>2</totalPoints>
+		<starts>2</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>haas</team>
