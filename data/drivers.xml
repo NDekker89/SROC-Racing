@@ -1,0 +1,214 @@
+<?xml version='1.0' standalone='yes'?>
+<drivers>
+	<driver>
+		<id>fugotaro</id>
+		<name>Fugotaro</name>
+		<totalPoints>61</totalPoints>
+		<starts>3</starts>
+		<wins>1</wins>
+		<poles>-</poles>
+		<team>force_india</team>
+	</driver>
+
+	<driver>
+		<id>forced</id>
+		<name>Forced</name>
+		<totalPoints>29</totalPoints>
+		<starts>3</starts>
+		<wins>1</wins>
+		<poles>-</poles>
+		<team>mclaren</team>
+	</driver>
+
+	<driver>
+		<id>Maydayforce</id>
+		<name>maydayforce</name>
+		<totalPoints>33</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>mclaren</team>
+	</driver>
+
+	<driver>
+		<id>sjors538</id>
+		<name>Sjors538</name>
+		<totalPoints>24</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>redbull</team>
+	</driver>
+
+	<driver>
+		<id>niki</id>
+		<name>Niki</name>
+		<totalPoints>45</totalPoints>
+		<starts>3</starts>
+		<wins>1</wins>
+		<poles>1</poles>
+		<team>ferari</team>
+	</driver>
+
+	<driver>
+		<id>przewalskipaard</id>
+		<name>Przewalskipaard</name>
+		<totalPoints>34</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>1</poles>
+		<team>ferari</team>
+	</driver>
+
+	<driver>
+		<id>brix</id>
+		<name>Brix</name>
+		<totalPoints>22</totalPoints>
+		<starts>2</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>williams</team>
+	</driver>
+
+	<driver>
+		<id>ananas</id>
+		<name>Ananas</name>
+		<totalPoints>16</totalPoints>
+		<starts>3 </starts>
+		<wins>-</wins>
+		<poles>1</poles>
+		<team>renault</team>
+	</driver>
+
+	<driver>
+		<id>fluffy</id>
+		<name>Fluffy</name>
+		<totalPoints>8</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>tororosso</team>
+	</driver>
+
+	<driver>
+		<id>vivalatrance</id>
+		<name>VivaLaTrance</name>
+		<totalPoints>3</totalPoints>
+		<starts>2</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>renault</team>
+	</driver>
+
+	<driver>
+		<id>watch_your_6</id>
+		<name>WATCH YOUR 6</name>
+		<totalPoints>17</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>redbull</team>
+	</driver>
+	
+	<driver>
+		<id>isolaaa</id>
+		<name>Isolaaa</name>
+		<totalPoints>2</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>sauber</team>
+	</driver>
+
+	<driver>
+		<id>keplur</id>
+		<name>Keplur</name>
+		<totalPoints>1</totalPoints>
+		<starts>1</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>sauber</team>
+	</driver>
+
+	<driver>
+		<id>ziemnioczek</id>
+		<name>Ziemnioczek</name>
+		<totalPoints>0</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>force_india</team>
+	</driver>
+
+	<driver>
+		<id>dolan</id>
+		<name>dolan</name>
+		<totalPoints>0</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>mercedes</team>
+	</driver>
+
+	<driver>
+		<id>samvanzantvliet</id>
+		<name>samvanzantvliet</name>
+		<totalPoints>0</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>mercedes</team>
+	</driver>
+
+	<driver>
+		<id>bassie69</id>
+		<name>Bassie-69</name>
+		<totalPoints>0</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>tororosso</team>
+	</driver>
+
+	<driver>
+		<id>chickenskin</id>
+		<name>Chickenskin</name>
+		<totalPoints>0</totalPoints>
+		<starts>3</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>williams</team>
+	</driver>
+
+	<driver>
+		<id>bizy</id>
+		<name>Bizy</name>
+		<totalPoints>0</totalPoints>
+		<starts>2</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>haas</team>
+	</driver>
+
+	<driver>
+		<id>will_i_am</id>
+		<name>WILL I AM</name>
+		<totalPoints>2</totalPoints>
+		<starts>2</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>haas</team>
+	</driver>
+
+	<driver>
+		<id>veyron</id>
+		<name>Veyron</name>
+		<totalPoints>1</totalPoints>
+		<starts>1</starts>
+		<wins>-</wins>
+		<poles>-</poles>
+		<team>sauber</team>
+	</driver>
+
+
+</drivers>

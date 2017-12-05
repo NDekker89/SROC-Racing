@@ -1,0 +1,63 @@
+<?xml version='1.0' standalone='yes'?>
+<teams>
+	<team>
+		<id>ferari</id>
+		<name>Ferari</name>
+		<totalPoints>79</totalPoints>
+	</team>
+
+	<team>
+		<id>mclaren</id>
+		<name>McLaren</name>
+		<totalPoints>62</totalPoints>
+	</team>
+
+	<team>
+		<id>mercedes</id>
+		<name>Mercedes</name>
+		<totalPoints>0</totalPoints>
+	</team>
+
+	<team>
+		<id>redbull</id>
+		<name>Red Bull</name>
+		<totalPoints>41</totalPoints>
+	</team>
+
+	<team>
+		<id>force_india</id>
+		<name>Force India</name>
+		<totalPoints>61</totalPoints>
+	</team>
+
+	<team>
+		<id>renault</id>
+		<name>Renault</name>
+		<totalPoints>24</totalPoints>
+	</team>
+
+	<team>
+		<id>tororosso</id>
+		<name>Toro Rosso</name>
+		<totalPoints>8</totalPoints>
+	</team>
+
+	<team>
+		<id>sauber</id>
+		<name>Sauber</name>
+		<totalPoints>4</totalPoints>
+	</team>
+
+	<team>
+		<id>haas</id>
+		<name>Haas</name>
+		<totalPoints>2</totalPoints>
+	</team>
+
+	<team>
+		<id>williams</id>
+		<name>Williams</name>
+		<totalPoints>22</totalPoints>
+	</team>
+
+</teams>

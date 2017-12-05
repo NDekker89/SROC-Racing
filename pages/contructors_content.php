@@ -14,66 +14,58 @@
 								<th>TOTAL PTS</th>
 								<th id="team_th">TEAM</th>
 							</tr>
-                                                        <tr id="fugotaro">
-								<td class="pos"><span>1</span></td>
-								<td class="name">Ferrari</td>
-								<td class="points">79</td>
-								<td class="team ferari"></td>
-							</tr>
-                                                        <tr id="niki">
-								<td class="pos"><span>2</span></td>
-								<td class="name">McLaren</td>
-								<td class="points">62</td>
-								<td class="team mclaren"></td>
-							</tr>
-                                                        <tr id="sjors538">
-								<td class="pos"><span>3</span></td>
-								<td class="name">Force India</td>
-								<td class="points">61</td>
-								<td class="team force_india"></td>
-							</tr>
-                                                        <tr id="przewalskipaard">
-								<td class="pos"><span>4</span></td>
-								<td class="name">Red Bull</td>
-								<td class="points">41</td>
-								<td class="team redbull"></td>
-							</tr>
-                                                        <tr id="fluffy">
-								<td class="pos"><span>5</span></td>
-								<td class="name">Renault</td>
-								<td class="points">24</td>
-								<td class="team renault"></td>
-							</tr>
-                                                        <tr id="isolaaa">
-								<td class="pos"><span>6</span></td>
-								<td class="name">Williams</td>
-								<td class="points">22</td>
-								<td class="team williams"></td>
-							</tr>
-							<tr id="maydayforce">
-								<td class="pos"><span>7</span></td>
-								<td class="name">Toro Rosso</td>
-								<td class="points">8</td>
-								<td class="team tororosso"></td>
-							</tr>
-							<tr id="vivalatrance">
-								<td class="pos"><span>8</span></td>
-								<td class="name">Sauber</td>
-								<td class="points">4</td>
-								<td class="team sauber"></td>
-							</tr>
-                                                        <tr id="keplur">
-								<td class="pos"><span>9</span></td>
-								<td class="name">Haas</td>
-								<td class="points">2</td>
-								<td class="team haas"></td>
-							</tr>
-							<tr id="watch_your_6">
-								<td class="pos"><span>10</span></td>
-								<td class="name">Mercedes</td>
-								<td class="points">0</td>
-								<td class="team mercedes"></td>
-							</tr>
+              
+							<?php 
+
+								// Enable displaying of errors
+								// (!) Disable on PRD environment
+								ini_set('display_errors', 'On');
+								error_reporting(E_ALL | E_STRICT);
+						
+								include("../php/class_lib.php");
+
+								// Create array for the drivers
+								$teamsArray = [];
+
+								// Load XML file, create team objects and add them to array
+								if( ! $xml = simplexml_load_file('../data/teams.xml') ) 
+								{ 
+									 echo 'unable to load XML file'; 
+								} 
+								else 
+								{ 
+									foreach ($xml as $team) {
+										$teamsArray[] = new team(
+											$team->id, 
+											$team->name, 
+											$team->totalPoints);
+									}
+								}
+								
+								// To-do: Try catch
+
+								// Sort Array
+								 usort($teamsArray, "sort_drivers_points_desc");
+
+								// Output data to HTML
+								foreach ($teamsArray as $key => $team) {
+
+									// Calculate the position by looking at the index key
+									$position = $key +1;
+
+							?>
+
+									<tr id="<?=$team->getId()?>">
+										<td class="pos"><span><?=$position?></span></td>
+										<td class="name"><?=$team->get_name()?></td>
+										<td class="points"><?=$team->getPoints()?></td>
+										<td class="team <?=$team->getId()?>"></td>
+									</tr>
+
+							<?php
+								}	
+									
+							?>  							
 						</table>
 
 					</div>
