@@ -3,13 +3,13 @@
 	<team>
 		<id>ferari</id>
 		<name>Ferrari</name>
-		<totalPoints>107</totalPoints>
+		<totalPoints>135</totalPoints>
 	</team>
 
 	<team>
 		<id>mclaren</id>
 		<name>McLaren</name>
-		<totalPoints>74</totalPoints>
+		<totalPoints>105</totalPoints>
 	</team>
 
 	<team>
@@ -21,19 +21,19 @@
 	<team>
 		<id>redbull</id>
 		<name>Red Bull</name>
-		<totalPoints>42</totalPoints>
+		<totalPoints>62</totalPoints>
 	</team>
 
 	<team>
 		<id>force_india</id>
 		<name>Force India</name>
-		<totalPoints>86</totalPoints>
+		<totalPoints>101</totalPoints>
 	</team>
 
 	<team>
 		<id>renault</id>
 		<name>Renault</name>
-		<totalPoints>32</totalPoints>
+		<totalPoints>37</totalPoints>
 	</team>
 
 	<team>
@@ -57,7 +57,7 @@
 	<team>
 		<id>williams</id>
 		<name>Williams</name>
-		<totalPoints>37</totalPoints>
+		<totalPoints>39</totalPoints>
 	</team>
 
 </teams>
