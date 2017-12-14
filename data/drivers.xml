@@ -25,7 +25,7 @@
 		<name>maydayforce</name>
 		<totalPoints>58</totalPoints>
 		<starts>5</starts>
-		<wins>-</wins>
+		<wins>1</wins>
 		<poles>-</poles>
 		<team>mclaren</team>
 	</driver>
@@ -204,7 +204,7 @@
 		<id>veyron</id>
 		<name>Veyron</name>
 		<totalPoints>1</totalPoints>
-		<starts>2</starts>
+		<starts>3</starts>
 		<wins>-</wins>
 		<poles>-</poles>
 		<team>sauber</team>
