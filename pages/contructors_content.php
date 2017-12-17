@@ -14,7 +14,7 @@
 								<th>TOTAL PTS</th>
 								<th id="team_th">TEAM</th>
 							</tr>
-              
+
 							<?php 
 
 								// Enable displaying of errors
@@ -22,27 +22,7 @@
 								ini_set('display_errors', 'On');
 								error_reporting(E_ALL | E_STRICT);
 						
-								include("../php/class_lib.php");
-
-								// Create array for the drivers
-								$teamsArray = [];
-
-								// Load XML file, create team objects and add them to array
-								if( ! $xml = simplexml_load_file('../data/teams.xml') ) 
-								{ 
-									 echo 'unable to load XML file'; 
-								} 
-								else 
-								{ 
-									foreach ($xml as $team) {
-										$teamsArray[] = new team(
-											$team->id, 
-											$team->name, 
-											$team->totalPoints);
-									}
-								}
-								
-								// To-do: Try catch
+								include '../php/calcRanking.php';
 
 								// Sort Array
 								 usort($teamsArray, "sort_drivers_points_desc");

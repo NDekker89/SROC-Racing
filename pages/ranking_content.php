@@ -14,52 +14,31 @@
 								<th>TOTAL PTS</th>
 								<th>BEHIND LEAD</th>
 								<th>BEHIND NEXT</th>
-								<th>STARTS</th>
 								<th>WINS</th>
 								<th>POLES</th>
 								<th id="team_th">TEAM</th>
 							</tr>
 
+
 							<?php 
 
 								// Enable displaying of errors
 								// (!) Disable on PRD environment
-								//ini_set('display_errors', 'On');
-								//error_reporting(E_ALL | E_STRICT);
-						
-								include("../php/class_lib.php");
+								ini_set('display_errors', 'On');
+								error_reporting(E_ALL | E_STRICT);
 
-								// Create array for the drivers
-								$driversArray = [];
 
-								// Load XML file, create driver objects and add them to array
-								if( ! $xml = simplexml_load_file('../data/drivers.xml') ) 
-								{ 
-									 echo 'unable to load XML file'; 
-								} 
-								else 
-								{ 
-									foreach ($xml as $driver) {
-										$driversArray[] = new driver(
-											$driver->id, 
-											$driver->name, 
-											$driver->totalPoints, 
-											$driver->starts,
-											$driver->wins,
-											$driver->poles,
-											$driver->team);
-									}
-								}
+								include '../php/calcRanking.php';
 								
-								// To-do: Try catch
 
 								// Sort Array
-								 usort($driversArray, "sort_drivers_points_desc");
+								usort($driversArray, "sort_drivers_points_desc");
 
 								// Get points of nr1
 								$mostPoints = $driversArray[0]->getPoints();
 
-								// Get previous index in array
+								// Get previous index in array 
+								//To be used in calculatign the difference in points
 								$previous = 0;
 
 								// Output data to HTML
@@ -79,7 +58,6 @@
 										<td class="points"><?=$driver->getPoints()?></td>
 										<td class="beh_lead"><?=calcBehindLead($mostPoints, $driver->getPoints())?></td>
 										<td class="beh_next"><?=calcBehindNext($nextPoints, $driver->getPoints())?></td>
-										<td class="starts"><?=$driver->getStarts()?></td>
 										<td class="wins"><?=$driver->getWins()?></td>
 										<td class="poles"><?=$driver->getPoles()?> </td>
 										<td class="team <?=$driver->getTeam()?>"></td>
@@ -87,12 +65,12 @@
 
 								 	<?php
 
-								 	// Set current driver as the "above" driver
+								 	// Set current driver as the "previous" driver
 								 	$previous = $key;
 								}	
 									
 							?>                    
-            
+
 						</table>
 
 					</div>

@@ -7,6 +7,7 @@
 	position: relative;
 	margin: 0 0 0 0;
 	padding: 0;
+	font-family: 'Open sans', sans-serif;
 }
 
 body {
@@ -14,9 +15,6 @@ body {
     background-size: 100% auto;
 }
 
-h1, h2, h3, h4, h5, p, a, dt, dd {
-	font-family: 'Open sans', sans-serif;
-}
 
 h2 {
 	font-size: 2em;
@@ -1088,7 +1086,7 @@ td.team.williams {
 
 .copyright {
 	padding-top: 50px;
-	width: 100%;
+	width: 99%;
 	text-align: center;
 }
 

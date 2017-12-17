@@ -8,51 +8,53 @@
 						
 						<?php 
 
-							if( ! $xml = simplexml_load_file('../data/races.xml') ) 
-							{ 
-								 echo 'unable to load XML file'; 
-							} 
-							else 
-							{ 
-								foreach( $xml as $race ) 
-								{ 
-									$id = $race->id;
-									$name = $race->name;
-									$date = $race->date;
-									$winner = $race->winner; 
+							// Enable displaying of errors
+							// (!) Disable on PRD environment
+							ini_set('display_errors', 'On');
+							error_reporting(E_ALL | E_STRICT);
 
-									$the_date = DateTime::createFromFormat('Y-m-d', $date);
-    								$now = new DateTime();
+							include '../php/calcRaces.php';
 
-    								if($the_date < $now) {
+							foreach ($result as $key => $race) { 
+
+								$id = $key;
+								$name = $race[1];
+								$winner = $race[0]; 
+								$date = $race[2];
+								
+								$the_date = DateTime::createFromFormat('Y-m-d', $date);
+    							$now = new DateTime();
+
+    							if($the_date < $now) {
     									$finished = "finished";
-    								} else {
-    									$finished = " ";
-    								}
+    							} else {
+    								$finished = " ";
+    							}
 
-    								$writtenDate = $the_date->format('d M Y');
+    							$writtenDate = $the_date->format('d M Y');
 
-									?>
+						?>
 
-									<div class="race <?=$finished?>" id="<?=$id?>">
-										<div class="race_img">
-										</div>
-										<div class="race_info">
-											<div class="race_date">
-												<p><span class="rdate"><?=$writtenDate?></span></p>
-											</div>
-											<div class="race_name">
-												<h3><?=$name?></h3>
-											</div>
-											<div class="race_winner">
-												<p><?=$winner?></p>
-											</div>
-										</div>
-									</div>
-									<?php
+						<div class="race <?=$finished?>" id="<?=$id?>">
+							<div class="race_img">
+							</div>
+							<div class="race_info">
+								<div class="race_date">
+									<p><span class="rdate"><?=$writtenDate?></span></p>
+								</div>
+								<div class="race_name">
+									<h3><?=$name?></h3>
+								</div>
+								<div class="race_winner">
+									<p><?=$winner?></p>
+								</div>
+							</div>
+						</div>
+						
+						<?php
 
-								}
 							}
+
 						?>
 
 					</div>
