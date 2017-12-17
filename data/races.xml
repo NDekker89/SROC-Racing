@@ -4,7 +4,7 @@
     <id>australia</id>
     <name>AUSTRALIAN GRAND PRIX</name>
     <date>2017-11-12</date>
-    <winner>Fugotaro</winner>
+    <winner>fugotaro</winner>
   </race>
 
   <race>
@@ -25,14 +25,14 @@
     <id>russia</id>
     <name>RUSSIAN GRAND PRIX</name>
     <date>2017-12-03</date>
-    <winner></winner>
+    <winner>fugotaro</winner>
   </race>
 
   <race>
     <id>spain</id>
     <name>SPANISH GRAND PRIX</name>
     <date>2017-12-10</date>
-    <winner></winner>
+    <winner>Maydayforce</winner>
   </race>
 
   <race>
