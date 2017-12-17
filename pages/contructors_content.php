@@ -19,8 +19,8 @@
 
 								// Enable displaying of errors
 								// (!) Disable on PRD environment
-								ini_set('display_errors', 'On');
-								error_reporting(E_ALL | E_STRICT);
+								//ini_set('display_errors', 'On');
+								//error_reporting(E_ALL | E_STRICT);
 						
 								include '../php/calcRanking.php';
 
