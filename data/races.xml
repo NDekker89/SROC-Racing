@@ -4,35 +4,35 @@
     <id>australia</id>
     <name>AUSTRALIAN GRAND PRIX</name>
     <date>2017-11-12</date>
-    <winner>fugotaro</winner>
+    <winner></winner>
   </race>
 
   <race>
     <id>china</id>
     <name>CHINESE GRAND PRIX</name>
     <date>2017-11-19</date>
-    <winner>Forced</winner>
+    <winner></winner>
   </race>
 
   <race>
     <id>bahrain</id>
     <name>BAHRAIN GRAND PRIX</name>
     <date>2017-11-26</date>
-    <winner>Niki</winner>
+    <winner></winner>
   </race>
 
   <race>
     <id>russia</id>
     <name>RUSSIAN GRAND PRIX</name>
     <date>2017-12-03</date>
-    <winner>fugotaro</winner>
+    <winner></winner>
   </race>
 
   <race>
     <id>spain</id>
     <name>SPANISH GRAND PRIX</name>
     <date>2017-12-10</date>
-    <winner>Maydayforce</winner>
+    <winner></winner>
   </race>
 
   <race>
