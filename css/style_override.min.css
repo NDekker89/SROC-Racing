@@ -36,24 +36,26 @@ screen and (max-width: 600px) {
 /* 		ADMIN PAGE			*/
 /* ************************ */
 
-
-.admin_page_wrapper {
-	padding: 20px;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 20px 0 hsla(0,0%,75%,.8);
+.header.admin_page {
+  box-shadow: 0 2px 20px 0 hsla(0,0%,75%,.8);
+  margin-bottom: 60px;
 }
 
 .header.admin_page h1 {
-	padding: 0 0 10px 0;
+	  padding:20px;
     background-color: #FFFFFF;
-    box-shadow: none;
     text-align: left;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #4E0000;
+}
+
+.admin_page_wrapper {
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 20px 0 hsla(0,0%,75%,.8);
 }
 
 .admin_page_text fieldset {
 	padding: 20px;
+  min-height: 600px
 }
 
 .admin_page_text fieldset legend {
@@ -71,6 +73,12 @@ screen and (max-width: 600px) {
 	padding: 5px;
 }
 
+.admin_page_text fieldset input[type="text"] {
+    width: 100%;
+    max-width: 220px;
+    padding: 5px;
+}
+
 .selectPos {
     margin-top: 30px;
 }
@@ -84,21 +92,44 @@ screen and (max-width: 600px) {
     margin: 20px 0;
 }
 
-.admin_page_text form .button {
-	text-transform: uppercase;
-	margin-right: 20px;
-	box-shadow: none;
-	font-size: 14px;
-	border: 2px solid #6d0000;
+.admin_page_wrapper .button {
+  text-transform: uppercase;
+  margin-right: 20px;
+  box-shadow: none;
+  font-size: 14px;
+  border: 2px solid #6d0000;
     border-radius: 0;
     background: #6d0000;
     color: white;
 }
 
-.admin_page_text form .button:hover {
-	cursor: pointer;
-	background: #410000;
-	border: 2px solid #410000;
+.admin_page_wrapper .button:hover {
+  cursor: pointer;
+  background: #410000;
+  border: 2px solid #410000;
+}
+
+.admin_page_tabs {
+  position: absolute;
+  top: -36px;
+}
+
+.admin_page_tab {
+    display:  inline-block;
+    padding: 7px 20px;
+    background-color: #cacaca;
+}
+
+.admin_page_tab:hover {
+  cursor: pointer;
+}
+
+.admin_page_tab.active {
+  background-color: #FFFFFF;
+}
+
+.admin_page_wrapper .not_visible {
+  display: none;
 }
 
 

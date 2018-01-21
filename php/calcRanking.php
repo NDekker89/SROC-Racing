@@ -56,9 +56,9 @@
 	{ 
 		foreach ($xml as $team) {
 			$teamsArray[] = new team(
-			$team->id, 
-			$team->name, 
-			$team->totalPoints);
+			(string)$team->id, 
+			(string)$team->name, 
+			(int)$team->totalPoints);
 		}
 	}
 
@@ -165,8 +165,7 @@
 		$driver->setWins($finalWins);
 	}
 
-
-
+	
 	/*
 	Calculate ranking of teams
 	*/
