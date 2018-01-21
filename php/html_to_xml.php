@@ -63,6 +63,89 @@
 
 			}
 
+
+
+
+
+			else if(isset($_POST['submit2'])) 
+			{
+
+
+				$nameDriver = $_POST["driverName"];
+				$nameTeam = $_POST["driverTeam"];
+
+				$xmlDrivers = simplexml_load_file('../data/drivers.xml');
+
+				foreach( $xmlDrivers as $DRiver) { 
+					
+					$NAME = $DRiver->name;
+
+					if ($NAME == $nameDriver) {
+						$nameDriver = "{$nameDriver} ({$nameTeam})";
+					}
+				}
+
+				$newDriver = new driver(strtolower($nameDriver), $nameDriver, "", "", "", $nameTeam);
+
+				if( ! $xmlDrivers = simplexml_load_file('../data/drivers.xml')) { 
+					
+					echo 'unable to load XML file'; 
+				} else { 
+
+					$Driver = $xmlDrivers->addChild('driver');
+
+					$driverId = $Driver->addChild('id', $newDriver->id);
+					$driverName = $Driver->addChild('name', $newDriver->name);
+					$driverPoints = $Driver->addChild('totalPoints', $newDriver->totalPoints);
+					$driverWins = $Driver->addChild('wins', $newDriver->wins);
+					$driverPoles = $Driver->addChild('poles', $newDriver->poles);
+					$driverTeam = $Driver->addChild('team', $newDriver->team);
+
+					$dom2 = new DOMDocument('1.0');
+					$dom2->preserveWhiteSpace = false;
+					$dom2->formatOutput = true;
+					$dom2->loadXML($xmlDrivers->asXML());
+					
+					//Save XML to file 
+					$dom2->save('../data/drivers.xml');
+				}
+			}
+
+
+
+
+
+			else if(isset($_POST['submit3'])) 
+			{
+				$newTeam = new team(strtolower($_POST["teamName"]), $_POST["teamName"], "");
+
+				print_r($newTeam);
+
+				if( ! $xmlTeams = simplexml_load_file('../data/teams.xml')) { 
+					
+					echo 'unable to load XML file';
+
+				} else { 
+
+					$Team = $xmlTeams->addChild('team');
+
+					$teamId = $Team->addChild('id', $newTeam->id);
+					$teamName = $Team->addChild('name', $newTeam->name);
+					$teamPoints = $Team->addChild('totalPoints', $newTeam->totalPoints);
+
+					$dom3 = new DOMDocument('1.0');
+					$dom3->preserveWhiteSpace = false;
+					$dom3->formatOutput = true;
+					$dom3->loadXML($xmlTeams->asXML());
+					
+					//Save XML to file 
+					$dom3->save('../data/teams.xml');
+				}
+			}
+
 		?>
+
+
+
 
 		

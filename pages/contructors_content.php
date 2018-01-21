@@ -12,7 +12,7 @@
 								<th>POS</th>
 								<th>TEAM</th>
 								<th>TOTAL PTS</th>
-								<th id="team_th">TEAM</th>
+								<th id="team_th">CAR</th>
 							</tr>
 
 							<?php 

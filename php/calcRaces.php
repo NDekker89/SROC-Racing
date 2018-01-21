@@ -39,6 +39,17 @@
 		$id = (string)$raceResult->race->id;
 		$winner = (string)$raceResult->race->pos1;
 
+		$xmlDrivers = simplexml_load_file('../data/drivers.xml');
+
+		foreach ($xmlDrivers as $driver) { 
+			$dId = (string)$driver->id;
+			$dName = (string)$driver->name;
+
+			if($winner == $dId) {
+				$winner = $dName;
+			}
+		};
+
 		$resultItems[$id] = array($winner);
 	}
 

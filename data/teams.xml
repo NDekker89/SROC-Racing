@@ -1,63 +1,53 @@
-<?xml version='1.0' standalone='yes'?>
+<?xml version="1.0" standalone="yes"?>
 <teams>
-	<team>
-		<id>ferari</id>
-		<name>Ferrari</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>mclaren</id>
-		<name>McLaren</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>mercedes</id>
-		<name>Mercedes</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>redbull</id>
-		<name>Red Bull</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>force_india</id>
-		<name>Force India</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>renault</id>
-		<name>Renault</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>tororosso</id>
-		<name>Toro Rosso</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>sauber</id>
-		<name>Sauber</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>haas</id>
-		<name>Haas</name>
-		<totalPoints></totalPoints>
-	</team>
-
-	<team>
-		<id>williams</id>
-		<name>Williams</name>
-		<totalPoints></totalPoints>
-	</team>
-
+  <team>
+    <id>ferari</id>
+    <name>Ferrari</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>mclaren</id>
+    <name>McLaren</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>mercedes</id>
+    <name>Mercedes</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>redbull</id>
+    <name>Red Bull</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>force_india</id>
+    <name>Force India</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>renault</id>
+    <name>Renault</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>tororosso</id>
+    <name>Toro Rosso</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>sauber</id>
+    <name>Sauber</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>haas</id>
+    <name>Haas</name>
+    <totalPoints/>
+  </team>
+  <team>
+    <id>williams</id>
+    <name>Williams</name>
+    <totalPoints/>
+  </team>
 </teams>
